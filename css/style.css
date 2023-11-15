@@ -1247,10 +1247,6 @@ footer {
 	background: #F9F9F7;
 }
 
-.apps_l {
-	width: 300px;
-}
-
 .apps_tit {
 	color: var(--neutral-07, #2C2F24);
 	max-width: 346px;
@@ -1275,39 +1271,34 @@ footer {
 	/* 150% */
 }
 
+.apps_l{
+	width: 400px;
+}
 .apps_r {
-	width: calc(100% - 308px);
+	width: calc(100% - 408px);
 	justify-content: center;
 }
 
 
 
-.card_app {
-	margin: 0 12px 40px ;
-	width: 220.909px;
-	height: 90px;
+.you_ic {
 	border-radius: 12px;
 	border: 1px solid var(--neutral-02, #F9F9F7);
 	background: var(--neutral-01, #FFF);
-	/* 1 */
-	transition: 1s;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
 
-.card_app__big {
+	/* 1 */
+	box-shadow: 0px 2.97872px 59.57446px 0px rgba(0, 0, 0, 0.08);
+	width: 220px;
+	height: 90px;
 	margin: 0 12px 40px;
-	width: 260px;
-	height: 90px;
-	border-radius: 12px;
-	border: 1px solid var(--neutral-02, #F9F9F7);
-	background: var(--neutral-01, #FFF);
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	
-	/* 1 */
+	padding: 10px;
+}
+
+.you_ic__big {
+	width: 260px;
 }
 
 .logo_app img {
@@ -1403,14 +1394,16 @@ footer {
 
 	/* 155.556% */
 }
-.book{
+
+.book {
 	padding-bottom: 0;
 	margin-bottom: -240px;
 	z-index: 10;
 	position: relative;
 
 }
-.map{
+
+.map {
 	padding-top: 0;
 }
 
@@ -1443,12 +1436,14 @@ footer {
 	margin-bottom: 24px;
 	margin-left: 24px;
 }
-.input{
+
+.input {
 	line-height: 58px;
 	font-size: 16px;
 
 }
-.form_input{
+
+.form_input {
 	width: calc(50% - 12px);
 }
 
@@ -1458,9 +1453,11 @@ footer {
 	align-items: flex-start;
 	gap: 20px;
 }
-.form_input__big{
+
+.form_input__big {
 	width: 100%;
 }
+
 .pag_tit {
 	color: var(--neutral-07, #2C2F24);
 
