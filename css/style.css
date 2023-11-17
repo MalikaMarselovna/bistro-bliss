@@ -32,6 +32,7 @@ img {
 	display: block;
 	width: 100%;
 	height: auto;
+	overflow: hidden;
 }
 
 button,
@@ -305,10 +306,11 @@ section {
 	display: block;
 	background: #f3f3f0;
 	margin: 0 auto 30px;
+	text-align: center;
 }
 
 .browse_card__1 .browse_ic {
-	background-image: url();
+	background-image: url(//img/tea1.png);
 }
 
 .browse_card__2 .browse_ic {
@@ -334,6 +336,29 @@ section {
 	margin-bottom: 15px;
 }
 
+.browse_txt {
+	color: var(--neutral-06, #414536);
+	text-align: center;
+	max-width: 238px;
+	/* Body/16px/Regular */
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	/* 150% */
+}
+
+.browse_link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #AD343E;
+	/* Body/16px/Bold */
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 24px;
+	/* 150% */
+
+}
 
 .provide_in {
 	align-items: center;
@@ -353,6 +378,11 @@ section {
 
 .provide_right {
 	width: calc(50% - 45px);
+	padding-left: 90px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin-bottom: 100px;
 }
 
 .provide .sec_sub-tit {
@@ -381,7 +411,9 @@ section {
 	padding: 50px;
 	color: #fff;
 	width: 411px;
-	z-index: right 100px;
+	z-index: 10px;
+	display: inline-block;
+	margin-bottom: 20px;
 }
 
 .provide_info-txt {
@@ -408,6 +440,12 @@ section {
 	/* Headline/H2 */
 	font-family: "Playfair Display";
 	margin-bottom: 24px;
+	color: var(--neutral-07, #2C2F24);
+	font-size: 55px;
+	font-weight: 500;
+	line-height: 60.5px;
+	max-width: 557px;
+	/* 110% */
 }
 
 .p1 {
@@ -845,6 +883,16 @@ footer {
 	color: #fff;
 }
 
+.footer_txt {
+	max-width: 293px;
+	color: var(--neutral-04, #ADB29E);
+	/* Body/16px/Regular */
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	/* 150% */
+}
+
 .footer_right {
 	width: 35%;
 	display: flex;
@@ -927,6 +975,10 @@ footer {
 	padding: 215px 0;
 }
 
+.feel_l {
+	padding-right: 24px;
+}
+
 .feel_top .sec_sub-tit {
 	max-width: 596px;
 	margin: 0 auto;
@@ -969,7 +1021,9 @@ footer {
 }
 
 .feel_card {
-	padding-left: 87px;
+	display: flex;
+	align-items: flex-start;
+	gap: 24px;
 }
 
 .feel_tit {
@@ -1348,9 +1402,9 @@ footer {
 }
 
 /*BOOK.HTML*/
-.CONTAKT, 
+.CONTAKT,
 .book {
-	background-color: #f9f9f7;
+	background-color: #f9f9;
 }
 
 .book_tit {
@@ -1388,8 +1442,8 @@ footer {
 
 }
 
-.map ,
-.contact2{
+.map,
+.contact2 {
 	padding-top: 0;
 }
 
@@ -1526,6 +1580,7 @@ footer {
 .form_input___big {
 	height: 156px;
 }
+
 .cont_txt {
 	padding: 0 300px;
 
@@ -1558,6 +1613,7 @@ footer {
 	/* 125% */
 	letter-spacing: -0.72px;
 }
+
 .txt_cont2 {
 	color: var(--neutral-07, #2C2F24);
 	max-width: 209px;
