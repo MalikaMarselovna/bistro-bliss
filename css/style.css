@@ -1348,8 +1348,9 @@ footer {
 }
 
 /*BOOK.HTML*/
+.CONTAKT, 
 .book {
-	background-color: #F9F9F7;
+	background-color: #f9f9f7;
 }
 
 .book_tit {
@@ -1387,7 +1388,8 @@ footer {
 
 }
 
-.map {
+.map ,
+.contact2{
 	padding-top: 0;
 }
 
@@ -1523,14 +1525,6 @@ footer {
 /*CONTACT.HTML*/
 .form_input___big {
 	height: 156px;
-}
-
-.CONTACT {
-	background-color: #F9F9F7;
-	
-}
-.contact2{
-	padding-top: 0;
 }
 .cont_txt {
 	padding: 0 300px;
