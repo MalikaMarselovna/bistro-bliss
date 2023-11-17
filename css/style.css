@@ -1024,6 +1024,8 @@ footer {
 	display: flex;
 	align-items: flex-start;
 	gap: 24px;
+	width: 300px;
+	flex-wrap: nowrap;
 }
 
 .feel_tit {
@@ -1404,7 +1406,7 @@ footer {
 /*BOOK.HTML*/
 .CONTAKT,
 .book {
-	background-color: #f9f9;
+	background-color: #f9f9f7;
 }
 
 .book_tit {
@@ -1445,6 +1447,7 @@ footer {
 .map,
 .contact2 {
 	padding-top: 0;
+	padding-bottom: 0;
 }
 
 .form_in {
