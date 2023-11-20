@@ -230,9 +230,11 @@ section {
 	font-style: normal;
 	font-weight: 700;
 	line-height: 24px;
-	border: 1px solid #050505;
+	background:#AD343E;
+	border: 1px solid #ad343e;
 	transition: 0.5s;
 	margin: 0 8px;
+	color: #FFF;
 
 }
 
@@ -263,8 +265,9 @@ section {
 
 .btn1:hover,
 .btn2:hover {
-	background: #AD343E;
+	background: #171212;
 	color: var(--neutral-01, #FFF);
+	border: #050505;
 }
 
 .br_tit {
@@ -310,7 +313,9 @@ section {
 }
 
 .browse_card__1 .browse_ic {
-	background-image: url(//img/tea1.png);
+	background-image: url(/img/icons/tea1.svg) no-repeat;
+	
+	
 }
 
 .browse_card__2 .browse_ic {
@@ -748,8 +753,8 @@ section {
 }
 
 .btn_red:hover {
-	background: #AD343E;
-	color: #DBDFD0;
+	background: #051212;
+	color: #f4f7f4;
 }
 
 .provide_right2 {
@@ -1180,7 +1185,10 @@ footer {
 	/* 155.556% */
 	margin-bottom: 50px;
 }
-
+.btn3{
+	background-color: #AD343E;
+	color: #FFF;
+}
 .btn3,
 .btn4,
 .btn5,
@@ -1192,7 +1200,6 @@ footer {
 	align-items: center;
 	gap: 10px;
 	text-align: center;
-	color: #171212;
 	cursor: pointer;
 	max-width: 150px;
 
@@ -1211,8 +1218,6 @@ footer {
 	height: 48px;
 	margin-bottom: 50px;
 }
-
-.btn3:hover,
 .btn4:hover,
 .btn5:hover,
 .btn6:hover,
@@ -1330,7 +1335,7 @@ footer {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding: 10px;
+	padding: 32px  34px;
 }
 
 .you_ic__big {
@@ -1444,12 +1449,12 @@ footer {
 
 }
 
-.map,
-.contact2 {
+.map {
 	padding-top: 0;
-	padding-bottom: 0;
 }
-
+.contact2 {
+    padding-bottom: 0;
+}
 .form_in {
 	display: flex;
 	flex-wrap: wrap;
@@ -1483,6 +1488,7 @@ footer {
 .input {
 	line-height: 58px;
 	font-size: 16px;
+	border-radius: 5px;
 
 }
 
