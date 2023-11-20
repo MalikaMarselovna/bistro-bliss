@@ -1682,3 +1682,10 @@ footer {
 	line-height: 28px;
 	/*155.556%*/
 }
+
+
+
+
+.js-btn.active{
+	background: blue;
+}
