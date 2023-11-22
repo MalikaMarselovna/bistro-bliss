@@ -787,7 +787,8 @@ section {
 	transition: 0.5s;
 }
 
-.btn_red:hover {
+.btn_red:hover,
+.btn_red__2 {
 	background: #051212;
 	color: #f4f7f4;
 }
@@ -1550,9 +1551,13 @@ footer {
 }
 
 .btn_red__2 {
+	background-color: #AD343E;
+	color: #FFF;
 	width: 700px;
 	margin-left: 24px;
 }
+
+
 
 /*PAGES2.HTML*/
 .pages2 {
