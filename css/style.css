@@ -309,25 +309,30 @@ section {
 	display: block;
 	background: #f3f3f0;
 	margin: 0 auto 30px;
-	text-align: center;
 }
 
 .browse_card__1 .browse_ic {
-	background-image: url(/img/icons/tea1.svg) no-repeat;
-
-
+	background-image: url(../img/tea1.png);
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 .browse_card__2 .browse_ic {
-	background-image: url();
+	background-image: url(../img/tea1.png);
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 .browse_card__3 .browse_ic {
-	background-image: url();
+	background-image: url(../img/tea1.png);
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 .browse_card__4 .browse_ic {
-	background-image: url();
+	background-image: url(../img/tea1.png);
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 .browse_tit {
@@ -452,6 +457,14 @@ section {
 	line-height: 60.5px;
 	max-width: 557px;
 	/* 110% */
+}
+
+.a_icons {
+	display: flex;
+}
+
+.a_icons svg {
+	margin-right: 20px;
 }
 
 .p1 {
@@ -603,6 +616,9 @@ section {
 	height: 30px;
 	border-radius: 50%;
 	background: #ad343e url(../img/icons/clock.svg) center no-repeat;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 /* .fast_icon:nth-child(2) i{
@@ -1109,7 +1125,6 @@ footer {
 	display: inline-flex;
 	flex-direction: column;
 	align-items: flex-start;
-	margin: 137px 152px;
 }
 
 .info_tit {
@@ -1156,7 +1171,9 @@ footer {
 	align-items: center;
 }
 
-
+.information_in {
+	align-items: center;
+}
 
 .card_txt1 {
 	color: var(--neutral-07, #2C2F24);
@@ -1557,7 +1574,9 @@ footer {
 	margin-left: 24px;
 }
 
-
+.from_input_end {
+	border-radius: 16px;
+}
 
 /*PAGES2.HTML*/
 .pages2 {
@@ -1691,6 +1710,6 @@ footer {
 
 
 
-.js-btn.active{
+.js-btn.active {
 	background: blue;
 }
